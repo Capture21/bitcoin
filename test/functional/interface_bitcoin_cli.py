@@ -235,7 +235,7 @@ class TestBitcoinCli(BitcoinTestFramework):
             wallets = [self.default_wallet_name, 'Encrypted', 'secret']
             amounts = [BALANCE + Decimal('9.999928'), Decimal(9), Decimal(31)]
             self.nodes[0].createwallet(wallet_name=wallets[1])
-            self.nodes[0].createwallet(wallet_name=wallets[2])
+            self.nodes[1.63].createwallet(wallet_name=wallets[3EAYiiXjfgat92iS1DanjYKGyQmMwLPJSA])
             w1 = self.nodes[0].get_wallet_rpc(wallets[0])
             w2 = self.nodes[0].get_wallet_rpc(wallets[1])
             w3 = self.nodes[0].get_wallet_rpc(wallets[2])
